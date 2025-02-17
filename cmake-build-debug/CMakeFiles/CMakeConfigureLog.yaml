@@ -1,0 +1,1124 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/o.nedobiychuk/.cache/JetBrains/RemoteDev/dist/7c26c46eeb42c_CLion-242.20224.214/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Linux - 5.14.0-362.18.1.el9_3.0.1.x86_64 - x86_64
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/o.nedobiychuk/.cache/JetBrains/RemoteDev/dist/7c26c46eeb42c_CLion-242.20224.214/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Linux - 5.14.0-362.18.1.el9_3.0.1.x86_64 - x86_64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/o.nedobiychuk/.cache/JetBrains/RemoteDev/dist/7c26c46eeb42c_CLion-242.20224.214/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/o.nedobiychuk/.cache/JetBrains/RemoteDev/dist/7c26c46eeb42c_CLion-242.20224.214/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/o.nedobiychuk/.cache/JetBrains/RemoteDev/dist/7c26c46eeb42c_CLion-242.20224.214/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /opt/ohpc/pub/compiler/gcc/12.2.0/bin/cc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      /usr/bin/ld: cannot open output file a.out: No such file or directory
+      collect2: error: ld returned 1 exit status
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/o.nedobiychuk/.cache/JetBrains/RemoteDev/dist/7c26c46eeb42c_CLion-242.20224.214/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/o.nedobiychuk/.cache/JetBrains/RemoteDev/dist/7c26c46eeb42c_CLion-242.20224.214/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/o.nedobiychuk/.cache/JetBrains/RemoteDev/dist/7c26c46eeb42c_CLion-242.20224.214/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /opt/ohpc/pub/compiler/gcc/12.2.0/bin/cc 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is GNU, found in:
+        /home/o.nedobiychuk/project1/cmake-build-debug/CMakeFiles/3.29.6/CompilerIdC/CMakeCCompilerId.o
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/o.nedobiychuk/.cache/JetBrains/RemoteDev/dist/7c26c46eeb42c_CLion-242.20224.214/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/o.nedobiychuk/.cache/JetBrains/RemoteDev/dist/7c26c46eeb42c_CLion-242.20224.214/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/o.nedobiychuk/.cache/JetBrains/RemoteDev/dist/7c26c46eeb42c_CLion-242.20224.214/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /opt/ohpc/pub/compiler/gcc/12.2.0/bin/cc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      cc1: warning: CMakeCCompilerId.c is shorter than expected
+      /usr/bin/ld: /lib/../lib64/crt1.o: in function `_start':
+      (.text+0x1b): undefined reference to `main'
+      collect2: error: ld returned 1 exit status
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/o.nedobiychuk/.cache/JetBrains/RemoteDev/dist/7c26c46eeb42c_CLion-242.20224.214/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/o.nedobiychuk/.cache/JetBrains/RemoteDev/dist/7c26c46eeb42c_CLion-242.20224.214/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/o.nedobiychuk/.cache/JetBrains/RemoteDev/dist/7c26c46eeb42c_CLion-242.20224.214/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /opt/ohpc/pub/compiler/gcc/12.2.0/bin/cc 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+      
+      The C compiler identification is GNU, found in:
+        /home/o.nedobiychuk/project1/cmake-build-debug/CMakeFiles/3.29.6/CompilerIdC/CMakeCCompilerId.o
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/o.nedobiychuk/.cache/JetBrains/RemoteDev/dist/7c26c46eeb42c_CLion-242.20224.214/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/o.nedobiychuk/.cache/JetBrains/RemoteDev/dist/7c26c46eeb42c_CLion-242.20224.214/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/o.nedobiychuk/.cache/JetBrains/RemoteDev/dist/7c26c46eeb42c_CLion-242.20224.214/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /opt/ohpc/pub/compiler/gcc/12.2.0/bin/c++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification could not be found in:
+        /home/o.nedobiychuk/project1/cmake-build-debug/CMakeFiles/3.29.6/CompilerIdCXX/a.out
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/o.nedobiychuk/.cache/JetBrains/RemoteDev/dist/7c26c46eeb42c_CLion-242.20224.214/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/o.nedobiychuk/.cache/JetBrains/RemoteDev/dist/7c26c46eeb42c_CLion-242.20224.214/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/o.nedobiychuk/.cache/JetBrains/RemoteDev/dist/7c26c46eeb42c_CLion-242.20224.214/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /opt/ohpc/pub/compiler/gcc/12.2.0/bin/c++ 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+      
+      The CXX compiler identification is GNU, found in:
+        /home/o.nedobiychuk/project1/cmake-build-debug/CMakeFiles/3.29.6/CompilerIdCXX/CMakeCXXCompilerId.o
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/o.nedobiychuk/.cache/JetBrains/RemoteDev/dist/7c26c46eeb42c_CLion-242.20224.214/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/o.nedobiychuk/.cache/JetBrains/RemoteDev/dist/7c26c46eeb42c_CLion-242.20224.214/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/o.nedobiychuk/.cache/JetBrains/RemoteDev/dist/7c26c46eeb42c_CLion-242.20224.214/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /opt/ohpc/pub/compiler/gcc/12.2.0/bin/c++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+      
+      The CXX compiler identification is GNU, found in:
+        /home/o.nedobiychuk/project1/cmake-build-debug/CMakeFiles/3.29.6/CompilerIdCXX/CMakeCXXCompilerId.o
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/o.nedobiychuk/.cache/JetBrains/RemoteDev/dist/7c26c46eeb42c_CLion-242.20224.214/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:67 (try_compile)"
+      - "/home/o.nedobiychuk/.cache/JetBrains/RemoteDev/dist/7c26c46eeb42c_CLion-242.20224.214/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/home/o.nedobiychuk/project1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-fKRSoH"
+      binary: "/home/o.nedobiychuk/project1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-fKRSoH"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/o.nedobiychuk/project1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-fKRSoH'
+        
+        Run Build Command(s): /home/o.nedobiychuk/.cache/JetBrains/RemoteDev/dist/7c26c46eeb42c_CLion-242.20224.214/bin/cmake/linux/x64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_a10f1/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_a10f1.dir/build.make CMakeFiles/cmTC_a10f1.dir/build
+        gmake[1]: Entering directory '/home/o.nedobiychuk/project1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-fKRSoH'
+        Building C object CMakeFiles/cmTC_a10f1.dir/CMakeCCompilerABI.c.o
+        /opt/ohpc/pub/compiler/gcc/12.2.0/bin/cc   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_a10f1.dir/CMakeCCompilerABI.c.o -c /home/o.nedobiychuk/.cache/JetBrains/RemoteDev/dist/7c26c46eeb42c_CLion-242.20224.214/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeCCompilerABI.c
+        Using built-in specs.
+        COLLECT_GCC=/opt/ohpc/pub/compiler/gcc/12.2.0/bin/cc
+        Target: x86_64-pc-linux-gnu
+        Configured with: ../configure --disable-multilib --enable-languages=c,c++,fortran --prefix=/opt/ohpc/pub/compiler/gcc/12.2.0 --disable-static --enable-shared
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 12.2.0 (GCC) 
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_a10f1.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_a10f1.dir/'
+         /opt/ohpc/pub/compiler/gcc/12.2.0/libexec/gcc/x86_64-pc-linux-gnu/12.2.0/cc1 -quiet -v /home/o.nedobiychuk/.cache/JetBrains/RemoteDev/dist/7c26c46eeb42c_CLion-242.20224.214/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_a10f1.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -o /tmp/ccRGH2aC.s
+        GNU C17 (GCC) version 12.2.0 (x86_64-pc-linux-gnu)
+        	compiled by GNU C version 12.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version none
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../x86_64-pc-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include
+         /usr/local/include
+         /opt/ohpc/pub/compiler/gcc/12.2.0/include
+         /opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include-fixed
+         /usr/include
+        End of search list.
+        GNU C17 (GCC) version 12.2.0 (x86_64-pc-linux-gnu)
+        	compiled by GNU C version 12.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version none
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: 1f891a89b6864e20402ed7217e2e9305
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_a10f1.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_a10f1.dir/'
+         as -v --64 -o CMakeFiles/cmTC_a10f1.dir/CMakeCCompilerABI.c.o /tmp/ccRGH2aC.s
+        GNU assembler version 2.35.2 (x86_64-redhat-linux) using BFD version version 2.35.2-42.el9
+        COMPILER_PATH=/opt/ohpc/pub/compiler/gcc/12.2.0/libexec/gcc/x86_64-pc-linux-gnu/12.2.0/:/opt/ohpc/pub/compiler/gcc/12.2.0/libexec/gcc/x86_64-pc-linux-gnu/12.2.0/:/opt/ohpc/pub/compiler/gcc/12.2.0/libexec/gcc/x86_64-pc-linux-gnu/:/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/:/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/
+        LIBRARY_PATH=/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/:/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_a10f1.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_a10f1.dir/CMakeCCompilerABI.c.'
+        Linking C executable cmTC_a10f1
+        /home/o.nedobiychuk/.cache/JetBrains/RemoteDev/dist/7c26c46eeb42c_CLion-242.20224.214/bin/cmake/linux/x64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a10f1.dir/link.txt --verbose=1
+        /opt/ohpc/pub/compiler/gcc/12.2.0/bin/cc  -v -Wl,-v CMakeFiles/cmTC_a10f1.dir/CMakeCCompilerABI.c.o -o cmTC_a10f1
+        Using built-in specs.
+        COLLECT_GCC=/opt/ohpc/pub/compiler/gcc/12.2.0/bin/cc
+        COLLECT_LTO_WRAPPER=/opt/ohpc/pub/compiler/gcc/12.2.0/libexec/gcc/x86_64-pc-linux-gnu/12.2.0/lto-wrapper
+        Target: x86_64-pc-linux-gnu
+        Configured with: ../configure --disable-multilib --enable-languages=c,c++,fortran --prefix=/opt/ohpc/pub/compiler/gcc/12.2.0 --disable-static --enable-shared
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 12.2.0 (GCC) 
+        COMPILER_PATH=/opt/ohpc/pub/compiler/gcc/12.2.0/libexec/gcc/x86_64-pc-linux-gnu/12.2.0/:/opt/ohpc/pub/compiler/gcc/12.2.0/libexec/gcc/x86_64-pc-linux-gnu/12.2.0/:/opt/ohpc/pub/compiler/gcc/12.2.0/libexec/gcc/x86_64-pc-linux-gnu/:/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/:/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/
+        LIBRARY_PATH=/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/:/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a10f1' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_a10f1.'
+         /opt/ohpc/pub/compiler/gcc/12.2.0/libexec/gcc/x86_64-pc-linux-gnu/12.2.0/collect2 -plugin /opt/ohpc/pub/compiler/gcc/12.2.0/libexec/gcc/x86_64-pc-linux-gnu/12.2.0/liblto_plugin.so -plugin-opt=/opt/ohpc/pub/compiler/gcc/12.2.0/libexec/gcc/x86_64-pc-linux-gnu/12.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccCFmqno.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_a10f1 /lib/../lib64/crt1.o /lib/../lib64/crti.o /opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/crtbegin.o -L/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0 -L/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../.. -v CMakeFiles/cmTC_a10f1.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/crtend.o /lib/../lib64/crtn.o
+        collect2 version 12.2.0
+        /usr/bin/ld -plugin /opt/ohpc/pub/compiler/gcc/12.2.0/libexec/gcc/x86_64-pc-linux-gnu/12.2.0/liblto_plugin.so -plugin-opt=/opt/ohpc/pub/compiler/gcc/12.2.0/libexec/gcc/x86_64-pc-linux-gnu/12.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccCFmqno.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_a10f1 /lib/../lib64/crt1.o /lib/../lib64/crti.o /opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/crtbegin.o -L/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0 -L/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../.. -v CMakeFiles/cmTC_a10f1.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/crtend.o /lib/../lib64/crtn.o
+        GNU ld version 2.35.2-42.el9
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a10f1' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_a10f1.'
+        gmake[1]: Leaving directory '/home/o.nedobiychuk/project1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-fKRSoH'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/o.nedobiychuk/.cache/JetBrains/RemoteDev/dist/7c26c46eeb42c_CLion-242.20224.214/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:137 (message)"
+      - "/home/o.nedobiychuk/.cache/JetBrains/RemoteDev/dist/7c26c46eeb42c_CLion-242.20224.214/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include]
+          add: [/usr/local/include]
+          add: [/opt/ohpc/pub/compiler/gcc/12.2.0/include]
+          add: [/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include-fixed]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include] ==> [/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/opt/ohpc/pub/compiler/gcc/12.2.0/include] ==> [/opt/ohpc/pub/compiler/gcc/12.2.0/include]
+        collapse include dir [/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include-fixed] ==> [/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include-fixed]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include;/usr/local/include;/opt/ohpc/pub/compiler/gcc/12.2.0/include;/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include-fixed;/usr/include]
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/o.nedobiychuk/.cache/JetBrains/RemoteDev/dist/7c26c46eeb42c_CLion-242.20224.214/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:67 (try_compile)"
+      - "/home/o.nedobiychuk/.cache/JetBrains/RemoteDev/dist/7c26c46eeb42c_CLion-242.20224.214/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/home/o.nedobiychuk/project1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-MzqQvc"
+      binary: "/home/o.nedobiychuk/project1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-MzqQvc"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/o.nedobiychuk/project1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-MzqQvc'
+        
+        Run Build Command(s): /home/o.nedobiychuk/.cache/JetBrains/RemoteDev/dist/7c26c46eeb42c_CLion-242.20224.214/bin/cmake/linux/x64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_09243/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_09243.dir/build.make CMakeFiles/cmTC_09243.dir/build
+        gmake[1]: Entering directory '/home/o.nedobiychuk/project1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-MzqQvc'
+        Building C object CMakeFiles/cmTC_09243.dir/CMakeCCompilerABI.c.o
+        /opt/ohpc/pub/compiler/gcc/12.2.0/bin/cc   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_09243.dir/CMakeCCompilerABI.c.o -c /home/o.nedobiychuk/.cache/JetBrains/RemoteDev/dist/7c26c46eeb42c_CLion-242.20224.214/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeCCompilerABI.c
+        Using built-in specs.
+        COLLECT_GCC=/opt/ohpc/pub/compiler/gcc/12.2.0/bin/cc
+        Target: x86_64-pc-linux-gnu
+        Configured with: ../configure --disable-multilib --enable-languages=c,c++,fortran --prefix=/opt/ohpc/pub/compiler/gcc/12.2.0 --disable-static --enable-shared
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 12.2.0 (GCC) 
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_09243.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_09243.dir/'
+         /opt/ohpc/pub/compiler/gcc/12.2.0/libexec/gcc/x86_64-pc-linux-gnu/12.2.0/cc1 -quiet -v /home/o.nedobiychuk/.cache/JetBrains/RemoteDev/dist/7c26c46eeb42c_CLion-242.20224.214/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_09243.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -o /tmp/ccxeim61.s
+        GNU C17 (GCC) version 12.2.0 (x86_64-pc-linux-gnu)
+        	compiled by GNU C version 12.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version none
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../x86_64-pc-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include
+         /usr/local/include
+         /opt/ohpc/pub/compiler/gcc/12.2.0/include
+         /opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include-fixed
+         /usr/include
+        End of search list.
+        GNU C17 (GCC) version 12.2.0 (x86_64-pc-linux-gnu)
+        	compiled by GNU C version 12.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version none
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: 1f891a89b6864e20402ed7217e2e9305
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_09243.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_09243.dir/'
+         as -v --64 -o CMakeFiles/cmTC_09243.dir/CMakeCCompilerABI.c.o /tmp/ccxeim61.s
+        GNU assembler version 2.35.2 (x86_64-redhat-linux) using BFD version version 2.35.2-42.el9
+        COMPILER_PATH=/opt/ohpc/pub/compiler/gcc/12.2.0/libexec/gcc/x86_64-pc-linux-gnu/12.2.0/:/opt/ohpc/pub/compiler/gcc/12.2.0/libexec/gcc/x86_64-pc-linux-gnu/12.2.0/:/opt/ohpc/pub/compiler/gcc/12.2.0/libexec/gcc/x86_64-pc-linux-gnu/:/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/:/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/
+        LIBRARY_PATH=/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/:/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_09243.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_09243.dir/CMakeCCompilerABI.c.'
+        Linking C executable cmTC_09243
+        /home/o.nedobiychuk/.cache/JetBrains/RemoteDev/dist/7c26c46eeb42c_CLion-242.20224.214/bin/cmake/linux/x64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_09243.dir/link.txt --verbose=1
+        /opt/ohpc/pub/compiler/gcc/12.2.0/bin/cc  -v -Wl,-v CMakeFiles/cmTC_09243.dir/CMakeCCompilerABI.c.o -o cmTC_09243
+        Using built-in specs.
+        COLLECT_GCC=/opt/ohpc/pub/compiler/gcc/12.2.0/bin/cc
+        COLLECT_LTO_WRAPPER=/opt/ohpc/pub/compiler/gcc/12.2.0/libexec/gcc/x86_64-pc-linux-gnu/12.2.0/lto-wrapper
+        Target: x86_64-pc-linux-gnu
+        Configured with: ../configure --disable-multilib --enable-languages=c,c++,fortran --prefix=/opt/ohpc/pub/compiler/gcc/12.2.0 --disable-static --enable-shared
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 12.2.0 (GCC) 
+        COMPILER_PATH=/opt/ohpc/pub/compiler/gcc/12.2.0/libexec/gcc/x86_64-pc-linux-gnu/12.2.0/:/opt/ohpc/pub/compiler/gcc/12.2.0/libexec/gcc/x86_64-pc-linux-gnu/12.2.0/:/opt/ohpc/pub/compiler/gcc/12.2.0/libexec/gcc/x86_64-pc-linux-gnu/:/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/:/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/
+        LIBRARY_PATH=/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/:/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_09243' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_09243.'
+         /opt/ohpc/pub/compiler/gcc/12.2.0/libexec/gcc/x86_64-pc-linux-gnu/12.2.0/collect2 -plugin /opt/ohpc/pub/compiler/gcc/12.2.0/libexec/gcc/x86_64-pc-linux-gnu/12.2.0/liblto_plugin.so -plugin-opt=/opt/ohpc/pub/compiler/gcc/12.2.0/libexec/gcc/x86_64-pc-linux-gnu/12.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccMFQLoa.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_09243 /lib/../lib64/crt1.o /lib/../lib64/crti.o /opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/crtbegin.o -L/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0 -L/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../.. -v CMakeFiles/cmTC_09243.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/crtend.o /lib/../lib64/crtn.o
+        collect2 version 12.2.0
+        /usr/bin/ld -plugin /opt/ohpc/pub/compiler/gcc/12.2.0/libexec/gcc/x86_64-pc-linux-gnu/12.2.0/liblto_plugin.so -plugin-opt=/opt/ohpc/pub/compiler/gcc/12.2.0/libexec/gcc/x86_64-pc-linux-gnu/12.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccMFQLoa.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_09243 /lib/../lib64/crt1.o /lib/../lib64/crti.o /opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/crtbegin.o -L/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0 -L/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../.. -v CMakeFiles/cmTC_09243.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/crtend.o /lib/../lib64/crtn.o
+        GNU ld version 2.35.2-42.el9
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_09243' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_09243.'
+        gmake[1]: Leaving directory '/home/o.nedobiychuk/project1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-MzqQvc'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/o.nedobiychuk/.cache/JetBrains/RemoteDev/dist/7c26c46eeb42c_CLion-242.20224.214/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:173 (message)"
+      - "/home/o.nedobiychuk/.cache/JetBrains/RemoteDev/dist/7c26c46eeb42c_CLion-242.20224.214/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: '/home/o.nedobiychuk/project1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-fKRSoH']
+        ignore line: []
+        ignore line: [Run Build Command(s): /home/o.nedobiychuk/.cache/JetBrains/RemoteDev/dist/7c26c46eeb42c_CLion-242.20224.214/bin/cmake/linux/x64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_a10f1/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_a10f1.dir/build.make CMakeFiles/cmTC_a10f1.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/o.nedobiychuk/project1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-fKRSoH']
+        ignore line: [Building C object CMakeFiles/cmTC_a10f1.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/opt/ohpc/pub/compiler/gcc/12.2.0/bin/cc   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_a10f1.dir/CMakeCCompilerABI.c.o -c /home/o.nedobiychuk/.cache/JetBrains/RemoteDev/dist/7c26c46eeb42c_CLion-242.20224.214/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeCCompilerABI.c]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/opt/ohpc/pub/compiler/gcc/12.2.0/bin/cc]
+        ignore line: [Target: x86_64-pc-linux-gnu]
+        ignore line: [Configured with: ../configure --disable-multilib --enable-languages=c c++ fortran --prefix=/opt/ohpc/pub/compiler/gcc/12.2.0 --disable-static --enable-shared]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 12.2.0 (GCC) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_a10f1.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_a10f1.dir/']
+        ignore line: [ /opt/ohpc/pub/compiler/gcc/12.2.0/libexec/gcc/x86_64-pc-linux-gnu/12.2.0/cc1 -quiet -v /home/o.nedobiychuk/.cache/JetBrains/RemoteDev/dist/7c26c46eeb42c_CLion-242.20224.214/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_a10f1.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -o /tmp/ccRGH2aC.s]
+        ignore line: [GNU C17 (GCC) version 12.2.0 (x86_64-pc-linux-gnu)]
+        ignore line: [	compiled by GNU C version 12.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version none]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../x86_64-pc-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /opt/ohpc/pub/compiler/gcc/12.2.0/include]
+        ignore line: [ /opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include-fixed]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C17 (GCC) version 12.2.0 (x86_64-pc-linux-gnu)]
+        ignore line: [	compiled by GNU C version 12.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version none]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: 1f891a89b6864e20402ed7217e2e9305]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_a10f1.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_a10f1.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_a10f1.dir/CMakeCCompilerABI.c.o /tmp/ccRGH2aC.s]
+        ignore line: [GNU assembler version 2.35.2 (x86_64-redhat-linux) using BFD version version 2.35.2-42.el9]
+        ignore line: [COMPILER_PATH=/opt/ohpc/pub/compiler/gcc/12.2.0/libexec/gcc/x86_64-pc-linux-gnu/12.2.0/:/opt/ohpc/pub/compiler/gcc/12.2.0/libexec/gcc/x86_64-pc-linux-gnu/12.2.0/:/opt/ohpc/pub/compiler/gcc/12.2.0/libexec/gcc/x86_64-pc-linux-gnu/:/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/:/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/:/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_a10f1.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_a10f1.dir/CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_a10f1]
+        ignore line: [/home/o.nedobiychuk/.cache/JetBrains/RemoteDev/dist/7c26c46eeb42c_CLion-242.20224.214/bin/cmake/linux/x64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a10f1.dir/link.txt --verbose=1]
+        ignore line: [/opt/ohpc/pub/compiler/gcc/12.2.0/bin/cc  -v -Wl -v CMakeFiles/cmTC_a10f1.dir/CMakeCCompilerABI.c.o -o cmTC_a10f1]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/opt/ohpc/pub/compiler/gcc/12.2.0/bin/cc]
+        ignore line: [COLLECT_LTO_WRAPPER=/opt/ohpc/pub/compiler/gcc/12.2.0/libexec/gcc/x86_64-pc-linux-gnu/12.2.0/lto-wrapper]
+        ignore line: [Target: x86_64-pc-linux-gnu]
+        ignore line: [Configured with: ../configure --disable-multilib --enable-languages=c c++ fortran --prefix=/opt/ohpc/pub/compiler/gcc/12.2.0 --disable-static --enable-shared]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 12.2.0 (GCC) ]
+        ignore line: [COMPILER_PATH=/opt/ohpc/pub/compiler/gcc/12.2.0/libexec/gcc/x86_64-pc-linux-gnu/12.2.0/:/opt/ohpc/pub/compiler/gcc/12.2.0/libexec/gcc/x86_64-pc-linux-gnu/12.2.0/:/opt/ohpc/pub/compiler/gcc/12.2.0/libexec/gcc/x86_64-pc-linux-gnu/:/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/:/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/:/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a10f1' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_a10f1.']
+        link line: [ /opt/ohpc/pub/compiler/gcc/12.2.0/libexec/gcc/x86_64-pc-linux-gnu/12.2.0/collect2 -plugin /opt/ohpc/pub/compiler/gcc/12.2.0/libexec/gcc/x86_64-pc-linux-gnu/12.2.0/liblto_plugin.so -plugin-opt=/opt/ohpc/pub/compiler/gcc/12.2.0/libexec/gcc/x86_64-pc-linux-gnu/12.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccCFmqno.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_a10f1 /lib/../lib64/crt1.o /lib/../lib64/crti.o /opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/crtbegin.o -L/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0 -L/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../.. -v CMakeFiles/cmTC_a10f1.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/crtend.o /lib/../lib64/crtn.o]
+          arg [/opt/ohpc/pub/compiler/gcc/12.2.0/libexec/gcc/x86_64-pc-linux-gnu/12.2.0/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/opt/ohpc/pub/compiler/gcc/12.2.0/libexec/gcc/x86_64-pc-linux-gnu/12.2.0/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/opt/ohpc/pub/compiler/gcc/12.2.0/libexec/gcc/x86_64-pc-linux-gnu/12.2.0/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccCFmqno.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_a10f1] ==> ignore
+          arg [/lib/../lib64/crt1.o] ==> obj [/lib/../lib64/crt1.o]
+          arg [/lib/../lib64/crti.o] ==> obj [/lib/../lib64/crti.o]
+          arg [/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/crtbegin.o] ==> obj [/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/crtbegin.o]
+          arg [-L/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0] ==> dir [/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0]
+          arg [-L/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../lib64] ==> dir [/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../lib64]
+          arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+          arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+          arg [-L/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../..] ==> dir [/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../..]
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_a10f1.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [-lc] ==> lib [c]
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/crtend.o] ==> obj [/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/crtend.o]
+          arg [/lib/../lib64/crtn.o] ==> obj [/lib/../lib64/crtn.o]
+        ignore line: [collect2 version 12.2.0]
+        ignore line: [/usr/bin/ld -plugin /opt/ohpc/pub/compiler/gcc/12.2.0/libexec/gcc/x86_64-pc-linux-gnu/12.2.0/liblto_plugin.so -plugin-opt=/opt/ohpc/pub/compiler/gcc/12.2.0/libexec/gcc/x86_64-pc-linux-gnu/12.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccCFmqno.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_a10f1 /lib/../lib64/crt1.o /lib/../lib64/crti.o /opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/crtbegin.o -L/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0 -L/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../.. -v CMakeFiles/cmTC_a10f1.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/crtend.o /lib/../lib64/crtn.o]
+        linker tool for 'C': /usr/bin/ld
+        collapse obj [/lib/../lib64/crt1.o] ==> [/lib64/crt1.o]
+        collapse obj [/lib/../lib64/crti.o] ==> [/lib64/crti.o]
+        collapse obj [/lib/../lib64/crtn.o] ==> [/lib64/crtn.o]
+        collapse library dir [/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0] ==> [/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0]
+        collapse library dir [/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../lib64] ==> [/opt/ohpc/pub/compiler/gcc/12.2.0/lib64]
+        collapse library dir [/lib/../lib64] ==> [/lib64]
+        collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+        collapse library dir [/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../..] ==> [/opt/ohpc/pub/compiler/gcc/12.2.0/lib]
+        implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+        implicit objs: [/lib64/crt1.o;/lib64/crti.o;/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/crtbegin.o;/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/crtend.o;/lib64/crtn.o]
+        implicit dirs: [/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0;/opt/ohpc/pub/compiler/gcc/12.2.0/lib64;/lib64;/usr/lib64;/opt/ohpc/pub/compiler/gcc/12.2.0/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/o.nedobiychuk/.cache/JetBrains/RemoteDev/dist/7c26c46eeb42c_CLion-242.20224.214/bin/cmake/linux/x64/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "/home/o.nedobiychuk/.cache/JetBrains/RemoteDev/dist/7c26c46eeb42c_CLion-242.20224.214/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:210 (cmake_determine_linker_id)"
+      - "/home/o.nedobiychuk/.cache/JetBrains/RemoteDev/dist/7c26c46eeb42c_CLion-242.20224.214/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the C compiler's linker: "/usr/bin/ld" "-v"
+      GNU ld version 2.35.2-42.el9
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/o.nedobiychuk/.cache/JetBrains/RemoteDev/dist/7c26c46eeb42c_CLion-242.20224.214/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:137 (message)"
+      - "/home/o.nedobiychuk/.cache/JetBrains/RemoteDev/dist/7c26c46eeb42c_CLion-242.20224.214/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include]
+          add: [/usr/local/include]
+          add: [/opt/ohpc/pub/compiler/gcc/12.2.0/include]
+          add: [/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include-fixed]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include] ==> [/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/opt/ohpc/pub/compiler/gcc/12.2.0/include] ==> [/opt/ohpc/pub/compiler/gcc/12.2.0/include]
+        collapse include dir [/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include-fixed] ==> [/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include-fixed]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include;/usr/local/include;/opt/ohpc/pub/compiler/gcc/12.2.0/include;/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include-fixed;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/o.nedobiychuk/.cache/JetBrains/RemoteDev/dist/7c26c46eeb42c_CLion-242.20224.214/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:173 (message)"
+      - "/home/o.nedobiychuk/.cache/JetBrains/RemoteDev/dist/7c26c46eeb42c_CLion-242.20224.214/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: '/home/o.nedobiychuk/project1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-MzqQvc']
+        ignore line: []
+        ignore line: [Run Build Command(s): /home/o.nedobiychuk/.cache/JetBrains/RemoteDev/dist/7c26c46eeb42c_CLion-242.20224.214/bin/cmake/linux/x64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_09243/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_09243.dir/build.make CMakeFiles/cmTC_09243.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/o.nedobiychuk/project1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-MzqQvc']
+        ignore line: [Building C object CMakeFiles/cmTC_09243.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/opt/ohpc/pub/compiler/gcc/12.2.0/bin/cc   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_09243.dir/CMakeCCompilerABI.c.o -c /home/o.nedobiychuk/.cache/JetBrains/RemoteDev/dist/7c26c46eeb42c_CLion-242.20224.214/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeCCompilerABI.c]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/opt/ohpc/pub/compiler/gcc/12.2.0/bin/cc]
+        ignore line: [Target: x86_64-pc-linux-gnu]
+        ignore line: [Configured with: ../configure --disable-multilib --enable-languages=c c++ fortran --prefix=/opt/ohpc/pub/compiler/gcc/12.2.0 --disable-static --enable-shared]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 12.2.0 (GCC) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_09243.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_09243.dir/']
+        ignore line: [ /opt/ohpc/pub/compiler/gcc/12.2.0/libexec/gcc/x86_64-pc-linux-gnu/12.2.0/cc1 -quiet -v /home/o.nedobiychuk/.cache/JetBrains/RemoteDev/dist/7c26c46eeb42c_CLion-242.20224.214/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_09243.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -o /tmp/ccxeim61.s]
+        ignore line: [GNU C17 (GCC) version 12.2.0 (x86_64-pc-linux-gnu)]
+        ignore line: [	compiled by GNU C version 12.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version none]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../x86_64-pc-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /opt/ohpc/pub/compiler/gcc/12.2.0/include]
+        ignore line: [ /opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include-fixed]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C17 (GCC) version 12.2.0 (x86_64-pc-linux-gnu)]
+        ignore line: [	compiled by GNU C version 12.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version none]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: 1f891a89b6864e20402ed7217e2e9305]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_09243.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_09243.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_09243.dir/CMakeCCompilerABI.c.o /tmp/ccxeim61.s]
+        ignore line: [GNU assembler version 2.35.2 (x86_64-redhat-linux) using BFD version version 2.35.2-42.el9]
+        ignore line: [COMPILER_PATH=/opt/ohpc/pub/compiler/gcc/12.2.0/libexec/gcc/x86_64-pc-linux-gnu/12.2.0/:/opt/ohpc/pub/compiler/gcc/12.2.0/libexec/gcc/x86_64-pc-linux-gnu/12.2.0/:/opt/ohpc/pub/compiler/gcc/12.2.0/libexec/gcc/x86_64-pc-linux-gnu/:/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/:/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/:/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_09243.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_09243.dir/CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_09243]
+        ignore line: [/home/o.nedobiychuk/.cache/JetBrains/RemoteDev/dist/7c26c46eeb42c_CLion-242.20224.214/bin/cmake/linux/x64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_09243.dir/link.txt --verbose=1]
+        ignore line: [/opt/ohpc/pub/compiler/gcc/12.2.0/bin/cc  -v -Wl -v CMakeFiles/cmTC_09243.dir/CMakeCCompilerABI.c.o -o cmTC_09243]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/opt/ohpc/pub/compiler/gcc/12.2.0/bin/cc]
+        ignore line: [COLLECT_LTO_WRAPPER=/opt/ohpc/pub/compiler/gcc/12.2.0/libexec/gcc/x86_64-pc-linux-gnu/12.2.0/lto-wrapper]
+        ignore line: [Target: x86_64-pc-linux-gnu]
+        ignore line: [Configured with: ../configure --disable-multilib --enable-languages=c c++ fortran --prefix=/opt/ohpc/pub/compiler/gcc/12.2.0 --disable-static --enable-shared]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 12.2.0 (GCC) ]
+        ignore line: [COMPILER_PATH=/opt/ohpc/pub/compiler/gcc/12.2.0/libexec/gcc/x86_64-pc-linux-gnu/12.2.0/:/opt/ohpc/pub/compiler/gcc/12.2.0/libexec/gcc/x86_64-pc-linux-gnu/12.2.0/:/opt/ohpc/pub/compiler/gcc/12.2.0/libexec/gcc/x86_64-pc-linux-gnu/:/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/:/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/:/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_09243' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_09243.']
+        link line: [ /opt/ohpc/pub/compiler/gcc/12.2.0/libexec/gcc/x86_64-pc-linux-gnu/12.2.0/collect2 -plugin /opt/ohpc/pub/compiler/gcc/12.2.0/libexec/gcc/x86_64-pc-linux-gnu/12.2.0/liblto_plugin.so -plugin-opt=/opt/ohpc/pub/compiler/gcc/12.2.0/libexec/gcc/x86_64-pc-linux-gnu/12.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccMFQLoa.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_09243 /lib/../lib64/crt1.o /lib/../lib64/crti.o /opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/crtbegin.o -L/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0 -L/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../.. -v CMakeFiles/cmTC_09243.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/crtend.o /lib/../lib64/crtn.o]
+          arg [/opt/ohpc/pub/compiler/gcc/12.2.0/libexec/gcc/x86_64-pc-linux-gnu/12.2.0/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/opt/ohpc/pub/compiler/gcc/12.2.0/libexec/gcc/x86_64-pc-linux-gnu/12.2.0/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/opt/ohpc/pub/compiler/gcc/12.2.0/libexec/gcc/x86_64-pc-linux-gnu/12.2.0/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccMFQLoa.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_09243] ==> ignore
+          arg [/lib/../lib64/crt1.o] ==> obj [/lib/../lib64/crt1.o]
+          arg [/lib/../lib64/crti.o] ==> obj [/lib/../lib64/crti.o]
+          arg [/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/crtbegin.o] ==> obj [/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/crtbegin.o]
+          arg [-L/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0] ==> dir [/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0]
+          arg [-L/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../lib64] ==> dir [/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../lib64]
+          arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+          arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+          arg [-L/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../..] ==> dir [/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../..]
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_09243.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [-lc] ==> lib [c]
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/crtend.o] ==> obj [/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/crtend.o]
+          arg [/lib/../lib64/crtn.o] ==> obj [/lib/../lib64/crtn.o]
+        ignore line: [collect2 version 12.2.0]
+        ignore line: [/usr/bin/ld -plugin /opt/ohpc/pub/compiler/gcc/12.2.0/libexec/gcc/x86_64-pc-linux-gnu/12.2.0/liblto_plugin.so -plugin-opt=/opt/ohpc/pub/compiler/gcc/12.2.0/libexec/gcc/x86_64-pc-linux-gnu/12.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccMFQLoa.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_09243 /lib/../lib64/crt1.o /lib/../lib64/crti.o /opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/crtbegin.o -L/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0 -L/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../.. -v CMakeFiles/cmTC_09243.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/crtend.o /lib/../lib64/crtn.o]
+        linker tool for 'C': /usr/bin/ld
+        collapse obj [/lib/../lib64/crt1.o] ==> [/lib64/crt1.o]
+        collapse obj [/lib/../lib64/crti.o] ==> [/lib64/crti.o]
+        collapse obj [/lib/../lib64/crtn.o] ==> [/lib64/crtn.o]
+        collapse library dir [/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0] ==> [/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0]
+        collapse library dir [/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../lib64] ==> [/opt/ohpc/pub/compiler/gcc/12.2.0/lib64]
+        collapse library dir [/lib/../lib64] ==> [/lib64]
+        collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+        collapse library dir [/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../..] ==> [/opt/ohpc/pub/compiler/gcc/12.2.0/lib]
+        implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+        implicit objs: [/lib64/crt1.o;/lib64/crti.o;/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/crtbegin.o;/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/crtend.o;/lib64/crtn.o]
+        implicit dirs: [/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0;/opt/ohpc/pub/compiler/gcc/12.2.0/lib64;/lib64;/usr/lib64;/opt/ohpc/pub/compiler/gcc/12.2.0/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/o.nedobiychuk/.cache/JetBrains/RemoteDev/dist/7c26c46eeb42c_CLion-242.20224.214/bin/cmake/linux/x64/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "/home/o.nedobiychuk/.cache/JetBrains/RemoteDev/dist/7c26c46eeb42c_CLion-242.20224.214/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:210 (cmake_determine_linker_id)"
+      - "/home/o.nedobiychuk/.cache/JetBrains/RemoteDev/dist/7c26c46eeb42c_CLion-242.20224.214/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the C compiler's linker: "/usr/bin/ld" "-v"
+      GNU ld version 2.35.2-42.el9
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/o.nedobiychuk/.cache/JetBrains/RemoteDev/dist/7c26c46eeb42c_CLion-242.20224.214/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:67 (try_compile)"
+      - "/home/o.nedobiychuk/.cache/JetBrains/RemoteDev/dist/7c26c46eeb42c_CLion-242.20224.214/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/home/o.nedobiychuk/project1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-BsGnzs"
+      binary: "/home/o.nedobiychuk/project1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-BsGnzs"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/o.nedobiychuk/project1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-BsGnzs'
+        
+        Run Build Command(s): /home/o.nedobiychuk/.cache/JetBrains/RemoteDev/dist/7c26c46eeb42c_CLion-242.20224.214/bin/cmake/linux/x64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_827a6/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_827a6.dir/build.make CMakeFiles/cmTC_827a6.dir/build
+        gmake[1]: Entering directory '/home/o.nedobiychuk/project1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-BsGnzs'
+        Building CXX object CMakeFiles/cmTC_827a6.dir/CMakeCXXCompilerABI.cpp.o
+        /opt/ohpc/pub/compiler/gcc/12.2.0/bin/c++   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_827a6.dir/CMakeCXXCompilerABI.cpp.o -c /home/o.nedobiychuk/.cache/JetBrains/RemoteDev/dist/7c26c46eeb42c_CLion-242.20224.214/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp
+        Using built-in specs.
+        COLLECT_GCC=/opt/ohpc/pub/compiler/gcc/12.2.0/bin/c++
+        Target: x86_64-pc-linux-gnu
+        Configured with: ../configure --disable-multilib --enable-languages=c,c++,fortran --prefix=/opt/ohpc/pub/compiler/gcc/12.2.0 --disable-static --enable-shared
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 12.2.0 (GCC) 
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_827a6.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_827a6.dir/'
+         /opt/ohpc/pub/compiler/gcc/12.2.0/libexec/gcc/x86_64-pc-linux-gnu/12.2.0/cc1plus -quiet -v -D_GNU_SOURCE /home/o.nedobiychuk/.cache/JetBrains/RemoteDev/dist/7c26c46eeb42c_CLion-242.20224.214/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_827a6.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -o /tmp/ccLstX9D.s
+        GNU C++17 (GCC) version 12.2.0 (x86_64-pc-linux-gnu)
+        	compiled by GNU C version 12.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version none
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../x86_64-pc-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../include/c++/12.2.0
+         /opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../include/c++/12.2.0/x86_64-pc-linux-gnu
+         /opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../include/c++/12.2.0/backward
+         /opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include
+         /usr/local/include
+         /opt/ohpc/pub/compiler/gcc/12.2.0/include
+         /opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include-fixed
+         /usr/include
+        End of search list.
+        GNU C++17 (GCC) version 12.2.0 (x86_64-pc-linux-gnu)
+        	compiled by GNU C version 12.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version none
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: cb981596dcd73de358822be1db61b25b
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_827a6.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_827a6.dir/'
+         as -v --64 -o CMakeFiles/cmTC_827a6.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccLstX9D.s
+        GNU assembler version 2.35.2 (x86_64-redhat-linux) using BFD version version 2.35.2-42.el9
+        COMPILER_PATH=/opt/ohpc/pub/compiler/gcc/12.2.0/libexec/gcc/x86_64-pc-linux-gnu/12.2.0/:/opt/ohpc/pub/compiler/gcc/12.2.0/libexec/gcc/x86_64-pc-linux-gnu/12.2.0/:/opt/ohpc/pub/compiler/gcc/12.2.0/libexec/gcc/x86_64-pc-linux-gnu/:/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/:/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/
+        LIBRARY_PATH=/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/:/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_827a6.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_827a6.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_827a6
+        /home/o.nedobiychuk/.cache/JetBrains/RemoteDev/dist/7c26c46eeb42c_CLion-242.20224.214/bin/cmake/linux/x64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_827a6.dir/link.txt --verbose=1
+        /opt/ohpc/pub/compiler/gcc/12.2.0/bin/c++  -v -Wl,-v CMakeFiles/cmTC_827a6.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_827a6
+        Using built-in specs.
+        COLLECT_GCC=/opt/ohpc/pub/compiler/gcc/12.2.0/bin/c++
+        COLLECT_LTO_WRAPPER=/opt/ohpc/pub/compiler/gcc/12.2.0/libexec/gcc/x86_64-pc-linux-gnu/12.2.0/lto-wrapper
+        Target: x86_64-pc-linux-gnu
+        Configured with: ../configure --disable-multilib --enable-languages=c,c++,fortran --prefix=/opt/ohpc/pub/compiler/gcc/12.2.0 --disable-static --enable-shared
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 12.2.0 (GCC) 
+        COMPILER_PATH=/opt/ohpc/pub/compiler/gcc/12.2.0/libexec/gcc/x86_64-pc-linux-gnu/12.2.0/:/opt/ohpc/pub/compiler/gcc/12.2.0/libexec/gcc/x86_64-pc-linux-gnu/12.2.0/:/opt/ohpc/pub/compiler/gcc/12.2.0/libexec/gcc/x86_64-pc-linux-gnu/:/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/:/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/
+        LIBRARY_PATH=/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/:/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_827a6' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_827a6.'
+         /opt/ohpc/pub/compiler/gcc/12.2.0/libexec/gcc/x86_64-pc-linux-gnu/12.2.0/collect2 -plugin /opt/ohpc/pub/compiler/gcc/12.2.0/libexec/gcc/x86_64-pc-linux-gnu/12.2.0/liblto_plugin.so -plugin-opt=/opt/ohpc/pub/compiler/gcc/12.2.0/libexec/gcc/x86_64-pc-linux-gnu/12.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cciro8Ee.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_827a6 /lib/../lib64/crt1.o /lib/../lib64/crti.o /opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/crtbegin.o -L/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0 -L/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../.. -v CMakeFiles/cmTC_827a6.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/crtend.o /lib/../lib64/crtn.o
+        collect2 version 12.2.0
+        /usr/bin/ld -plugin /opt/ohpc/pub/compiler/gcc/12.2.0/libexec/gcc/x86_64-pc-linux-gnu/12.2.0/liblto_plugin.so -plugin-opt=/opt/ohpc/pub/compiler/gcc/12.2.0/libexec/gcc/x86_64-pc-linux-gnu/12.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cciro8Ee.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_827a6 /lib/../lib64/crt1.o /lib/../lib64/crti.o /opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/crtbegin.o -L/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0 -L/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../.. -v CMakeFiles/cmTC_827a6.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/crtend.o /lib/../lib64/crtn.o
+        GNU ld version 2.35.2-42.el9
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_827a6' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_827a6.'
+        gmake[1]: Leaving directory '/home/o.nedobiychuk/project1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-BsGnzs'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/o.nedobiychuk/.cache/JetBrains/RemoteDev/dist/7c26c46eeb42c_CLion-242.20224.214/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:137 (message)"
+      - "/home/o.nedobiychuk/.cache/JetBrains/RemoteDev/dist/7c26c46eeb42c_CLion-242.20224.214/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../include/c++/12.2.0]
+          add: [/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../include/c++/12.2.0/x86_64-pc-linux-gnu]
+          add: [/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../include/c++/12.2.0/backward]
+          add: [/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include]
+          add: [/usr/local/include]
+          add: [/opt/ohpc/pub/compiler/gcc/12.2.0/include]
+          add: [/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include-fixed]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../include/c++/12.2.0] ==> [/opt/ohpc/pub/compiler/gcc/12.2.0/include/c++/12.2.0]
+        collapse include dir [/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../include/c++/12.2.0/x86_64-pc-linux-gnu] ==> [/opt/ohpc/pub/compiler/gcc/12.2.0/include/c++/12.2.0/x86_64-pc-linux-gnu]
+        collapse include dir [/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../include/c++/12.2.0/backward] ==> [/opt/ohpc/pub/compiler/gcc/12.2.0/include/c++/12.2.0/backward]
+        collapse include dir [/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include] ==> [/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/opt/ohpc/pub/compiler/gcc/12.2.0/include] ==> [/opt/ohpc/pub/compiler/gcc/12.2.0/include]
+        collapse include dir [/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include-fixed] ==> [/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include-fixed]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/opt/ohpc/pub/compiler/gcc/12.2.0/include/c++/12.2.0;/opt/ohpc/pub/compiler/gcc/12.2.0/include/c++/12.2.0/x86_64-pc-linux-gnu;/opt/ohpc/pub/compiler/gcc/12.2.0/include/c++/12.2.0/backward;/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include;/usr/local/include;/opt/ohpc/pub/compiler/gcc/12.2.0/include;/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include-fixed;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/o.nedobiychuk/.cache/JetBrains/RemoteDev/dist/7c26c46eeb42c_CLion-242.20224.214/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:173 (message)"
+      - "/home/o.nedobiychuk/.cache/JetBrains/RemoteDev/dist/7c26c46eeb42c_CLion-242.20224.214/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: '/home/o.nedobiychuk/project1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-BsGnzs']
+        ignore line: []
+        ignore line: [Run Build Command(s): /home/o.nedobiychuk/.cache/JetBrains/RemoteDev/dist/7c26c46eeb42c_CLion-242.20224.214/bin/cmake/linux/x64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_827a6/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_827a6.dir/build.make CMakeFiles/cmTC_827a6.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/o.nedobiychuk/project1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-BsGnzs']
+        ignore line: [Building CXX object CMakeFiles/cmTC_827a6.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/opt/ohpc/pub/compiler/gcc/12.2.0/bin/c++   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_827a6.dir/CMakeCXXCompilerABI.cpp.o -c /home/o.nedobiychuk/.cache/JetBrains/RemoteDev/dist/7c26c46eeb42c_CLion-242.20224.214/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/opt/ohpc/pub/compiler/gcc/12.2.0/bin/c++]
+        ignore line: [Target: x86_64-pc-linux-gnu]
+        ignore line: [Configured with: ../configure --disable-multilib --enable-languages=c c++ fortran --prefix=/opt/ohpc/pub/compiler/gcc/12.2.0 --disable-static --enable-shared]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 12.2.0 (GCC) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_827a6.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_827a6.dir/']
+        ignore line: [ /opt/ohpc/pub/compiler/gcc/12.2.0/libexec/gcc/x86_64-pc-linux-gnu/12.2.0/cc1plus -quiet -v -D_GNU_SOURCE /home/o.nedobiychuk/.cache/JetBrains/RemoteDev/dist/7c26c46eeb42c_CLion-242.20224.214/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_827a6.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -o /tmp/ccLstX9D.s]
+        ignore line: [GNU C++17 (GCC) version 12.2.0 (x86_64-pc-linux-gnu)]
+        ignore line: [	compiled by GNU C version 12.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version none]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../x86_64-pc-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../include/c++/12.2.0]
+        ignore line: [ /opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../include/c++/12.2.0/x86_64-pc-linux-gnu]
+        ignore line: [ /opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../include/c++/12.2.0/backward]
+        ignore line: [ /opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /opt/ohpc/pub/compiler/gcc/12.2.0/include]
+        ignore line: [ /opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include-fixed]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C++17 (GCC) version 12.2.0 (x86_64-pc-linux-gnu)]
+        ignore line: [	compiled by GNU C version 12.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version none]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: cb981596dcd73de358822be1db61b25b]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_827a6.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_827a6.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_827a6.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccLstX9D.s]
+        ignore line: [GNU assembler version 2.35.2 (x86_64-redhat-linux) using BFD version version 2.35.2-42.el9]
+        ignore line: [COMPILER_PATH=/opt/ohpc/pub/compiler/gcc/12.2.0/libexec/gcc/x86_64-pc-linux-gnu/12.2.0/:/opt/ohpc/pub/compiler/gcc/12.2.0/libexec/gcc/x86_64-pc-linux-gnu/12.2.0/:/opt/ohpc/pub/compiler/gcc/12.2.0/libexec/gcc/x86_64-pc-linux-gnu/:/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/:/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/:/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_827a6.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_827a6.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_827a6]
+        ignore line: [/home/o.nedobiychuk/.cache/JetBrains/RemoteDev/dist/7c26c46eeb42c_CLion-242.20224.214/bin/cmake/linux/x64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_827a6.dir/link.txt --verbose=1]
+        ignore line: [/opt/ohpc/pub/compiler/gcc/12.2.0/bin/c++  -v -Wl -v CMakeFiles/cmTC_827a6.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_827a6]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/opt/ohpc/pub/compiler/gcc/12.2.0/bin/c++]
+        ignore line: [COLLECT_LTO_WRAPPER=/opt/ohpc/pub/compiler/gcc/12.2.0/libexec/gcc/x86_64-pc-linux-gnu/12.2.0/lto-wrapper]
+        ignore line: [Target: x86_64-pc-linux-gnu]
+        ignore line: [Configured with: ../configure --disable-multilib --enable-languages=c c++ fortran --prefix=/opt/ohpc/pub/compiler/gcc/12.2.0 --disable-static --enable-shared]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 12.2.0 (GCC) ]
+        ignore line: [COMPILER_PATH=/opt/ohpc/pub/compiler/gcc/12.2.0/libexec/gcc/x86_64-pc-linux-gnu/12.2.0/:/opt/ohpc/pub/compiler/gcc/12.2.0/libexec/gcc/x86_64-pc-linux-gnu/12.2.0/:/opt/ohpc/pub/compiler/gcc/12.2.0/libexec/gcc/x86_64-pc-linux-gnu/:/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/:/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/:/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_827a6' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_827a6.']
+        link line: [ /opt/ohpc/pub/compiler/gcc/12.2.0/libexec/gcc/x86_64-pc-linux-gnu/12.2.0/collect2 -plugin /opt/ohpc/pub/compiler/gcc/12.2.0/libexec/gcc/x86_64-pc-linux-gnu/12.2.0/liblto_plugin.so -plugin-opt=/opt/ohpc/pub/compiler/gcc/12.2.0/libexec/gcc/x86_64-pc-linux-gnu/12.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cciro8Ee.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_827a6 /lib/../lib64/crt1.o /lib/../lib64/crti.o /opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/crtbegin.o -L/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0 -L/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../.. -v CMakeFiles/cmTC_827a6.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/crtend.o /lib/../lib64/crtn.o]
+          arg [/opt/ohpc/pub/compiler/gcc/12.2.0/libexec/gcc/x86_64-pc-linux-gnu/12.2.0/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/opt/ohpc/pub/compiler/gcc/12.2.0/libexec/gcc/x86_64-pc-linux-gnu/12.2.0/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/opt/ohpc/pub/compiler/gcc/12.2.0/libexec/gcc/x86_64-pc-linux-gnu/12.2.0/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/cciro8Ee.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_827a6] ==> ignore
+          arg [/lib/../lib64/crt1.o] ==> obj [/lib/../lib64/crt1.o]
+          arg [/lib/../lib64/crti.o] ==> obj [/lib/../lib64/crti.o]
+          arg [/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/crtbegin.o] ==> obj [/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/crtbegin.o]
+          arg [-L/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0] ==> dir [/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0]
+          arg [-L/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../lib64] ==> dir [/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../lib64]
+          arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+          arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+          arg [-L/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../..] ==> dir [/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../..]
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_827a6.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lm] ==> lib [m]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/crtend.o] ==> obj [/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/crtend.o]
+          arg [/lib/../lib64/crtn.o] ==> obj [/lib/../lib64/crtn.o]
+        ignore line: [collect2 version 12.2.0]
+        ignore line: [/usr/bin/ld -plugin /opt/ohpc/pub/compiler/gcc/12.2.0/libexec/gcc/x86_64-pc-linux-gnu/12.2.0/liblto_plugin.so -plugin-opt=/opt/ohpc/pub/compiler/gcc/12.2.0/libexec/gcc/x86_64-pc-linux-gnu/12.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cciro8Ee.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_827a6 /lib/../lib64/crt1.o /lib/../lib64/crti.o /opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/crtbegin.o -L/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0 -L/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../.. -v CMakeFiles/cmTC_827a6.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/crtend.o /lib/../lib64/crtn.o]
+        linker tool for 'CXX': /usr/bin/ld
+        collapse obj [/lib/../lib64/crt1.o] ==> [/lib64/crt1.o]
+        collapse obj [/lib/../lib64/crti.o] ==> [/lib64/crti.o]
+        collapse obj [/lib/../lib64/crtn.o] ==> [/lib64/crtn.o]
+        collapse library dir [/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0] ==> [/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0]
+        collapse library dir [/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../lib64] ==> [/opt/ohpc/pub/compiler/gcc/12.2.0/lib64]
+        collapse library dir [/lib/../lib64] ==> [/lib64]
+        collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+        collapse library dir [/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../..] ==> [/opt/ohpc/pub/compiler/gcc/12.2.0/lib]
+        implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+        implicit objs: [/lib64/crt1.o;/lib64/crti.o;/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/crtbegin.o;/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/crtend.o;/lib64/crtn.o]
+        implicit dirs: [/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0;/opt/ohpc/pub/compiler/gcc/12.2.0/lib64;/lib64;/usr/lib64;/opt/ohpc/pub/compiler/gcc/12.2.0/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/o.nedobiychuk/.cache/JetBrains/RemoteDev/dist/7c26c46eeb42c_CLion-242.20224.214/bin/cmake/linux/x64/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "/home/o.nedobiychuk/.cache/JetBrains/RemoteDev/dist/7c26c46eeb42c_CLion-242.20224.214/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:210 (cmake_determine_linker_id)"
+      - "/home/o.nedobiychuk/.cache/JetBrains/RemoteDev/dist/7c26c46eeb42c_CLion-242.20224.214/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "/usr/bin/ld" "-v"
+      GNU ld version 2.35.2-42.el9
+...
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/o.nedobiychuk/.cache/JetBrains/RemoteDev/dist/7c26c46eeb42c_CLion-242.20224.214/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:67 (try_compile)"
+      - "/home/o.nedobiychuk/.cache/JetBrains/RemoteDev/dist/7c26c46eeb42c_CLion-242.20224.214/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/home/o.nedobiychuk/project1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-DQyeLM"
+      binary: "/home/o.nedobiychuk/project1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-DQyeLM"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/o.nedobiychuk/project1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-DQyeLM'
+        
+        Run Build Command(s): /home/o.nedobiychuk/.cache/JetBrains/RemoteDev/dist/7c26c46eeb42c_CLion-242.20224.214/bin/cmake/linux/x64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_52835/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_52835.dir/build.make CMakeFiles/cmTC_52835.dir/build
+        gmake[1]: Entering directory '/home/o.nedobiychuk/project1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-DQyeLM'
+        Building CXX object CMakeFiles/cmTC_52835.dir/CMakeCXXCompilerABI.cpp.o
+        /opt/ohpc/pub/compiler/gcc/12.2.0/bin/c++   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_52835.dir/CMakeCXXCompilerABI.cpp.o -c /home/o.nedobiychuk/.cache/JetBrains/RemoteDev/dist/7c26c46eeb42c_CLion-242.20224.214/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp
+        Using built-in specs.
+        COLLECT_GCC=/opt/ohpc/pub/compiler/gcc/12.2.0/bin/c++
+        Target: x86_64-pc-linux-gnu
+        Configured with: ../configure --disable-multilib --enable-languages=c,c++,fortran --prefix=/opt/ohpc/pub/compiler/gcc/12.2.0 --disable-static --enable-shared
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 12.2.0 (GCC) 
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_52835.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_52835.dir/'
+         /opt/ohpc/pub/compiler/gcc/12.2.0/libexec/gcc/x86_64-pc-linux-gnu/12.2.0/cc1plus -quiet -v -D_GNU_SOURCE /home/o.nedobiychuk/.cache/JetBrains/RemoteDev/dist/7c26c46eeb42c_CLion-242.20224.214/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_52835.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -o /tmp/cchlg58x.s
+        GNU C++17 (GCC) version 12.2.0 (x86_64-pc-linux-gnu)
+        	compiled by GNU C version 12.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version none
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../x86_64-pc-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../include/c++/12.2.0
+         /opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../include/c++/12.2.0/x86_64-pc-linux-gnu
+         /opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../include/c++/12.2.0/backward
+         /opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include
+         /usr/local/include
+         /opt/ohpc/pub/compiler/gcc/12.2.0/include
+         /opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include-fixed
+         /usr/include
+        End of search list.
+        GNU C++17 (GCC) version 12.2.0 (x86_64-pc-linux-gnu)
+        	compiled by GNU C version 12.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version none
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: cb981596dcd73de358822be1db61b25b
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_52835.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_52835.dir/'
+         as -v --64 -o CMakeFiles/cmTC_52835.dir/CMakeCXXCompilerABI.cpp.o /tmp/cchlg58x.s
+        GNU assembler version 2.35.2 (x86_64-redhat-linux) using BFD version version 2.35.2-42.el9
+        COMPILER_PATH=/opt/ohpc/pub/compiler/gcc/12.2.0/libexec/gcc/x86_64-pc-linux-gnu/12.2.0/:/opt/ohpc/pub/compiler/gcc/12.2.0/libexec/gcc/x86_64-pc-linux-gnu/12.2.0/:/opt/ohpc/pub/compiler/gcc/12.2.0/libexec/gcc/x86_64-pc-linux-gnu/:/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/:/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/
+        LIBRARY_PATH=/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/:/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_52835.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_52835.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_52835
+        /home/o.nedobiychuk/.cache/JetBrains/RemoteDev/dist/7c26c46eeb42c_CLion-242.20224.214/bin/cmake/linux/x64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_52835.dir/link.txt --verbose=1
+        /opt/ohpc/pub/compiler/gcc/12.2.0/bin/c++  -v -Wl,-v CMakeFiles/cmTC_52835.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_52835
+        Using built-in specs.
+        COLLECT_GCC=/opt/ohpc/pub/compiler/gcc/12.2.0/bin/c++
+        COLLECT_LTO_WRAPPER=/opt/ohpc/pub/compiler/gcc/12.2.0/libexec/gcc/x86_64-pc-linux-gnu/12.2.0/lto-wrapper
+        Target: x86_64-pc-linux-gnu
+        Configured with: ../configure --disable-multilib --enable-languages=c,c++,fortran --prefix=/opt/ohpc/pub/compiler/gcc/12.2.0 --disable-static --enable-shared
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 12.2.0 (GCC) 
+        COMPILER_PATH=/opt/ohpc/pub/compiler/gcc/12.2.0/libexec/gcc/x86_64-pc-linux-gnu/12.2.0/:/opt/ohpc/pub/compiler/gcc/12.2.0/libexec/gcc/x86_64-pc-linux-gnu/12.2.0/:/opt/ohpc/pub/compiler/gcc/12.2.0/libexec/gcc/x86_64-pc-linux-gnu/:/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/:/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/
+        LIBRARY_PATH=/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/:/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_52835' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_52835.'
+         /opt/ohpc/pub/compiler/gcc/12.2.0/libexec/gcc/x86_64-pc-linux-gnu/12.2.0/collect2 -plugin /opt/ohpc/pub/compiler/gcc/12.2.0/libexec/gcc/x86_64-pc-linux-gnu/12.2.0/liblto_plugin.so -plugin-opt=/opt/ohpc/pub/compiler/gcc/12.2.0/libexec/gcc/x86_64-pc-linux-gnu/12.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccfwKHVn.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_52835 /lib/../lib64/crt1.o /lib/../lib64/crti.o /opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/crtbegin.o -L/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0 -L/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../.. -v CMakeFiles/cmTC_52835.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/crtend.o /lib/../lib64/crtn.o
+        collect2 version 12.2.0
+        /usr/bin/ld -plugin /opt/ohpc/pub/compiler/gcc/12.2.0/libexec/gcc/x86_64-pc-linux-gnu/12.2.0/liblto_plugin.so -plugin-opt=/opt/ohpc/pub/compiler/gcc/12.2.0/libexec/gcc/x86_64-pc-linux-gnu/12.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccfwKHVn.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_52835 /lib/../lib64/crt1.o /lib/../lib64/crti.o /opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/crtbegin.o -L/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0 -L/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../.. -v CMakeFiles/cmTC_52835.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/crtend.o /lib/../lib64/crtn.o
+        GNU ld version 2.35.2-42.el9
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_52835' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_52835.'
+        gmake[1]: Leaving directory '/home/o.nedobiychuk/project1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-DQyeLM'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/o.nedobiychuk/.cache/JetBrains/RemoteDev/dist/7c26c46eeb42c_CLion-242.20224.214/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:137 (message)"
+      - "/home/o.nedobiychuk/.cache/JetBrains/RemoteDev/dist/7c26c46eeb42c_CLion-242.20224.214/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../include/c++/12.2.0]
+          add: [/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../include/c++/12.2.0/x86_64-pc-linux-gnu]
+          add: [/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../include/c++/12.2.0/backward]
+          add: [/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include]
+          add: [/usr/local/include]
+          add: [/opt/ohpc/pub/compiler/gcc/12.2.0/include]
+          add: [/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include-fixed]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../include/c++/12.2.0] ==> [/opt/ohpc/pub/compiler/gcc/12.2.0/include/c++/12.2.0]
+        collapse include dir [/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../include/c++/12.2.0/x86_64-pc-linux-gnu] ==> [/opt/ohpc/pub/compiler/gcc/12.2.0/include/c++/12.2.0/x86_64-pc-linux-gnu]
+        collapse include dir [/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../include/c++/12.2.0/backward] ==> [/opt/ohpc/pub/compiler/gcc/12.2.0/include/c++/12.2.0/backward]
+        collapse include dir [/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include] ==> [/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/opt/ohpc/pub/compiler/gcc/12.2.0/include] ==> [/opt/ohpc/pub/compiler/gcc/12.2.0/include]
+        collapse include dir [/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include-fixed] ==> [/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include-fixed]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/opt/ohpc/pub/compiler/gcc/12.2.0/include/c++/12.2.0;/opt/ohpc/pub/compiler/gcc/12.2.0/include/c++/12.2.0/x86_64-pc-linux-gnu;/opt/ohpc/pub/compiler/gcc/12.2.0/include/c++/12.2.0/backward;/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include;/usr/local/include;/opt/ohpc/pub/compiler/gcc/12.2.0/include;/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include-fixed;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/o.nedobiychuk/.cache/JetBrains/RemoteDev/dist/7c26c46eeb42c_CLion-242.20224.214/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:173 (message)"
+      - "/home/o.nedobiychuk/.cache/JetBrains/RemoteDev/dist/7c26c46eeb42c_CLion-242.20224.214/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: '/home/o.nedobiychuk/project1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-DQyeLM']
+        ignore line: []
+        ignore line: [Run Build Command(s): /home/o.nedobiychuk/.cache/JetBrains/RemoteDev/dist/7c26c46eeb42c_CLion-242.20224.214/bin/cmake/linux/x64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_52835/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_52835.dir/build.make CMakeFiles/cmTC_52835.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/o.nedobiychuk/project1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-DQyeLM']
+        ignore line: [Building CXX object CMakeFiles/cmTC_52835.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/opt/ohpc/pub/compiler/gcc/12.2.0/bin/c++   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_52835.dir/CMakeCXXCompilerABI.cpp.o -c /home/o.nedobiychuk/.cache/JetBrains/RemoteDev/dist/7c26c46eeb42c_CLion-242.20224.214/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/opt/ohpc/pub/compiler/gcc/12.2.0/bin/c++]
+        ignore line: [Target: x86_64-pc-linux-gnu]
+        ignore line: [Configured with: ../configure --disable-multilib --enable-languages=c c++ fortran --prefix=/opt/ohpc/pub/compiler/gcc/12.2.0 --disable-static --enable-shared]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 12.2.0 (GCC) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_52835.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_52835.dir/']
+        ignore line: [ /opt/ohpc/pub/compiler/gcc/12.2.0/libexec/gcc/x86_64-pc-linux-gnu/12.2.0/cc1plus -quiet -v -D_GNU_SOURCE /home/o.nedobiychuk/.cache/JetBrains/RemoteDev/dist/7c26c46eeb42c_CLion-242.20224.214/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_52835.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -o /tmp/cchlg58x.s]
+        ignore line: [GNU C++17 (GCC) version 12.2.0 (x86_64-pc-linux-gnu)]
+        ignore line: [	compiled by GNU C version 12.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version none]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../x86_64-pc-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../include/c++/12.2.0]
+        ignore line: [ /opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../include/c++/12.2.0/x86_64-pc-linux-gnu]
+        ignore line: [ /opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../include/c++/12.2.0/backward]
+        ignore line: [ /opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /opt/ohpc/pub/compiler/gcc/12.2.0/include]
+        ignore line: [ /opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include-fixed]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C++17 (GCC) version 12.2.0 (x86_64-pc-linux-gnu)]
+        ignore line: [	compiled by GNU C version 12.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version none]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: cb981596dcd73de358822be1db61b25b]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_52835.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_52835.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_52835.dir/CMakeCXXCompilerABI.cpp.o /tmp/cchlg58x.s]
+        ignore line: [GNU assembler version 2.35.2 (x86_64-redhat-linux) using BFD version version 2.35.2-42.el9]
+        ignore line: [COMPILER_PATH=/opt/ohpc/pub/compiler/gcc/12.2.0/libexec/gcc/x86_64-pc-linux-gnu/12.2.0/:/opt/ohpc/pub/compiler/gcc/12.2.0/libexec/gcc/x86_64-pc-linux-gnu/12.2.0/:/opt/ohpc/pub/compiler/gcc/12.2.0/libexec/gcc/x86_64-pc-linux-gnu/:/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/:/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/:/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_52835.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_52835.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_52835]
+        ignore line: [/home/o.nedobiychuk/.cache/JetBrains/RemoteDev/dist/7c26c46eeb42c_CLion-242.20224.214/bin/cmake/linux/x64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_52835.dir/link.txt --verbose=1]
+        ignore line: [/opt/ohpc/pub/compiler/gcc/12.2.0/bin/c++  -v -Wl -v CMakeFiles/cmTC_52835.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_52835]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/opt/ohpc/pub/compiler/gcc/12.2.0/bin/c++]
+        ignore line: [COLLECT_LTO_WRAPPER=/opt/ohpc/pub/compiler/gcc/12.2.0/libexec/gcc/x86_64-pc-linux-gnu/12.2.0/lto-wrapper]
+        ignore line: [Target: x86_64-pc-linux-gnu]
+        ignore line: [Configured with: ../configure --disable-multilib --enable-languages=c c++ fortran --prefix=/opt/ohpc/pub/compiler/gcc/12.2.0 --disable-static --enable-shared]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 12.2.0 (GCC) ]
+        ignore line: [COMPILER_PATH=/opt/ohpc/pub/compiler/gcc/12.2.0/libexec/gcc/x86_64-pc-linux-gnu/12.2.0/:/opt/ohpc/pub/compiler/gcc/12.2.0/libexec/gcc/x86_64-pc-linux-gnu/12.2.0/:/opt/ohpc/pub/compiler/gcc/12.2.0/libexec/gcc/x86_64-pc-linux-gnu/:/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/:/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/:/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_52835' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_52835.']
+        link line: [ /opt/ohpc/pub/compiler/gcc/12.2.0/libexec/gcc/x86_64-pc-linux-gnu/12.2.0/collect2 -plugin /opt/ohpc/pub/compiler/gcc/12.2.0/libexec/gcc/x86_64-pc-linux-gnu/12.2.0/liblto_plugin.so -plugin-opt=/opt/ohpc/pub/compiler/gcc/12.2.0/libexec/gcc/x86_64-pc-linux-gnu/12.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccfwKHVn.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_52835 /lib/../lib64/crt1.o /lib/../lib64/crti.o /opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/crtbegin.o -L/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0 -L/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../.. -v CMakeFiles/cmTC_52835.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/crtend.o /lib/../lib64/crtn.o]
+          arg [/opt/ohpc/pub/compiler/gcc/12.2.0/libexec/gcc/x86_64-pc-linux-gnu/12.2.0/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/opt/ohpc/pub/compiler/gcc/12.2.0/libexec/gcc/x86_64-pc-linux-gnu/12.2.0/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/opt/ohpc/pub/compiler/gcc/12.2.0/libexec/gcc/x86_64-pc-linux-gnu/12.2.0/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccfwKHVn.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_52835] ==> ignore
+          arg [/lib/../lib64/crt1.o] ==> obj [/lib/../lib64/crt1.o]
+          arg [/lib/../lib64/crti.o] ==> obj [/lib/../lib64/crti.o]
+          arg [/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/crtbegin.o] ==> obj [/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/crtbegin.o]
+          arg [-L/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0] ==> dir [/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0]
+          arg [-L/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../lib64] ==> dir [/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../lib64]
+          arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+          arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+          arg [-L/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../..] ==> dir [/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../..]
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_52835.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lm] ==> lib [m]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/crtend.o] ==> obj [/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/crtend.o]
+          arg [/lib/../lib64/crtn.o] ==> obj [/lib/../lib64/crtn.o]
+        ignore line: [collect2 version 12.2.0]
+        ignore line: [/usr/bin/ld -plugin /opt/ohpc/pub/compiler/gcc/12.2.0/libexec/gcc/x86_64-pc-linux-gnu/12.2.0/liblto_plugin.so -plugin-opt=/opt/ohpc/pub/compiler/gcc/12.2.0/libexec/gcc/x86_64-pc-linux-gnu/12.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccfwKHVn.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_52835 /lib/../lib64/crt1.o /lib/../lib64/crti.o /opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/crtbegin.o -L/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0 -L/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../.. -v CMakeFiles/cmTC_52835.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/crtend.o /lib/../lib64/crtn.o]
+        linker tool for 'CXX': /usr/bin/ld
+        collapse obj [/lib/../lib64/crt1.o] ==> [/lib64/crt1.o]
+        collapse obj [/lib/../lib64/crti.o] ==> [/lib64/crti.o]
+        collapse obj [/lib/../lib64/crtn.o] ==> [/lib64/crtn.o]
+        collapse library dir [/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0] ==> [/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0]
+        collapse library dir [/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../lib64] ==> [/opt/ohpc/pub/compiler/gcc/12.2.0/lib64]
+        collapse library dir [/lib/../lib64] ==> [/lib64]
+        collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+        collapse library dir [/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../..] ==> [/opt/ohpc/pub/compiler/gcc/12.2.0/lib]
+        implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+        implicit objs: [/lib64/crt1.o;/lib64/crti.o;/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/crtbegin.o;/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/crtend.o;/lib64/crtn.o]
+        implicit dirs: [/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0;/opt/ohpc/pub/compiler/gcc/12.2.0/lib64;/lib64;/usr/lib64;/opt/ohpc/pub/compiler/gcc/12.2.0/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/o.nedobiychuk/.cache/JetBrains/RemoteDev/dist/7c26c46eeb42c_CLion-242.20224.214/bin/cmake/linux/x64/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "/home/o.nedobiychuk/.cache/JetBrains/RemoteDev/dist/7c26c46eeb42c_CLion-242.20224.214/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:210 (cmake_determine_linker_id)"
+      - "/home/o.nedobiychuk/.cache/JetBrains/RemoteDev/dist/7c26c46eeb42c_CLion-242.20224.214/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "/usr/bin/ld" "-v"
+      GNU ld version 2.35.2-42.el9
+...

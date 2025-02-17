@@ -1,0 +1,112 @@
+{
+	"kind" : "toolchains",
+	"toolchains" : 
+	[
+		{
+			"compiler" : 
+			{
+				"id" : "GNU",
+				"implicit" : 
+				{
+					"includeDirectories" : 
+					[
+						"/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include",
+						"/usr/local/include",
+						"/opt/ohpc/pub/compiler/gcc/12.2.0/include",
+						"/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include-fixed",
+						"/usr/include"
+					],
+					"linkDirectories" : 
+					[
+						"/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0",
+						"/opt/ohpc/pub/compiler/gcc/12.2.0/lib64",
+						"/lib64",
+						"/usr/lib64",
+						"/opt/ohpc/pub/compiler/gcc/12.2.0/lib"
+					],
+					"linkFrameworkDirectories" : [],
+					"linkLibraries" : 
+					[
+						"gcc",
+						"gcc_s",
+						"c",
+						"gcc",
+						"gcc_s"
+					]
+				},
+				"path" : "/opt/ohpc/pub/compiler/gcc/12.2.0/bin/cc",
+				"version" : "12.2.0"
+			},
+			"language" : "C",
+			"sourceFileExtensions" : 
+			[
+				"c",
+				"m"
+			]
+		},
+		{
+			"compiler" : 
+			{
+				"id" : "GNU",
+				"implicit" : 
+				{
+					"includeDirectories" : 
+					[
+						"/opt/ohpc/pub/compiler/gcc/12.2.0/include/c++/12.2.0",
+						"/opt/ohpc/pub/compiler/gcc/12.2.0/include/c++/12.2.0/x86_64-pc-linux-gnu",
+						"/opt/ohpc/pub/compiler/gcc/12.2.0/include/c++/12.2.0/backward",
+						"/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include",
+						"/usr/local/include",
+						"/opt/ohpc/pub/compiler/gcc/12.2.0/include",
+						"/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include-fixed",
+						"/usr/include"
+					],
+					"linkDirectories" : 
+					[
+						"/opt/ohpc/pub/compiler/gcc/12.2.0/lib/gcc/x86_64-pc-linux-gnu/12.2.0",
+						"/opt/ohpc/pub/compiler/gcc/12.2.0/lib64",
+						"/lib64",
+						"/usr/lib64",
+						"/opt/ohpc/pub/compiler/gcc/12.2.0/lib"
+					],
+					"linkFrameworkDirectories" : [],
+					"linkLibraries" : 
+					[
+						"stdc++",
+						"m",
+						"gcc_s",
+						"gcc",
+						"c",
+						"gcc_s",
+						"gcc"
+					]
+				},
+				"path" : "/opt/ohpc/pub/compiler/gcc/12.2.0/bin/c++",
+				"version" : "12.2.0"
+			},
+			"language" : "CXX",
+			"sourceFileExtensions" : 
+			[
+				"C",
+				"M",
+				"c++",
+				"cc",
+				"cpp",
+				"cxx",
+				"mm",
+				"mpp",
+				"CPP",
+				"ixx",
+				"cppm",
+				"ccm",
+				"cxxm",
+				"c++m"
+			]
+		}
+	],
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 0
+	}
+}
