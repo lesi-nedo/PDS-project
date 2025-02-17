@@ -1,4 +1,4 @@
 /home/o.nedobiychuk/.cache/JetBrains/RemoteDev/dist/7c26c46eeb42c_CLion-242.20224.214/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "Unix Makefiles" -S /home/o.nedobiychuk/project1 -B /home/o.nedobiychuk/project1/cmake-build-debug
--- Configuring done (0.0s)
+-- Configuring done (0.3s)
 -- Generating done (0.0s)
 -- Build files have been written to: /home/o.nedobiychuk/project1/cmake-build-debug
