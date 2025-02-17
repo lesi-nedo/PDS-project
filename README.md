@@ -1,0 +1,2 @@
+# PDS-project
+PARALLEL AND DISTRIBUTED SYSTEMS: PARADIGMS AND MODELS course project repository
